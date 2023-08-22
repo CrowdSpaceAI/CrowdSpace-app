@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "278240541238",
+    "project_id": "crowd-space-data",
+    "storage_bucket": "crowd-space-data.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278240541238:android:588f04b528707627173697",
+        "android_client_info": {
+          "package_name": "com.cookandroid.crowd_space"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278240541238-3n64i69v2b2bdic3u9uilb2j0oul07mo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.crowd_space",
+            "certificate_hash": "d540b3062b4025ff15f6b2d90aa625e9e4796292"
+          }
+        },
+        {
+          "client_id": "278240541238-1j3p4oadd8atf5rkev3oo5roinkvvit2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOFo9WyQyO_DO_7NDyfynhVgzqyAe5I2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278240541238-1j3p4oadd8atf5rkev3oo5roinkvvit2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

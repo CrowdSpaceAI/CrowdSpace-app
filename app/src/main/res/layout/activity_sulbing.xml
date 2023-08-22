@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. 현재 거리 혼잡도"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="16px"/>
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:src="@drawable/afford"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. 시간별 혼잡도"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="40px"/>
+
+    <ImageView
+        android:layout_width="700px"
+        android:layout_height="500px"
+        android:src="@drawable/sulbing_person"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. 시간별 이용자 비율"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="40px"/>
+
+    <ImageView
+        android:layout_width="700px"
+        android:layout_height="600px"
+        android:src="@drawable/sulbing_4"
+        android:layout_marginStart="25sp"/>
+
+
+
+</LinearLayout>

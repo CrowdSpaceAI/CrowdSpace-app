@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. 시간별 예상 혼잡도"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="40px"/>
+
+    <ImageView
+        android:layout_width="1000px"
+        android:layout_height="750px"
+        android:src="@drawable/menya_person"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="40px"
+        android:layout_marginStart="15sp"/>
+
+
+
+
+</LinearLayout>

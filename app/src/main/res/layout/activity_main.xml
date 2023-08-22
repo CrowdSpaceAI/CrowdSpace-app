@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/map" />
+
+                <ImageButton
+                    android:id="@+id/sulbing"
+                    android:layout_width="90px"
+                    android:layout_height="90px"
+                    android:src="@drawable/warning"
+                    android:layout_marginTop="800px"
+                    android:layout_marginStart="1400px"
+                    android:scaleType="centerCrop"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/crossroad"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:src="@drawable/cctv_red"
+                    android:layout_marginTop = "1100px"
+                    android:layout_marginStart= "1520px"
+                    android:scaleType="centerCrop"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/three_way_road"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:src="@drawable/cctv_green"
+                    android:layout_marginTop = "950px"
+                    android:layout_marginStart= "1460px"
+                    android:scaleType="centerCrop"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/menya"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:src="@drawable/cctv_green"
+                    android:layout_marginTop = "890px"
+                    android:layout_marginStart= "1625px"
+                    android:scaleType="centerCrop"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/phoand"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:src="@drawable/cctv_yellow"
+                    android:layout_marginTop = "1010px"
+                    android:layout_marginStart= "1820px"
+                    android:scaleType="centerCrop"
+                    android:background="@null"/>
+                <!--                    android:layout_gravity="top|start"-->
+                <!--                    android:layout_margin="20dp" &lt;!&ndash; 버튼과 이미지 간의 간격 설정 &ndash;&gt;-->
+
+            </FrameLayout>
+
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>
